@@ -270,10 +270,4 @@ if __name__ == "__main__":
     double_threshold()
     hysteresis()
 
-    print("\n=== ตัวอย่างค่าภายใน G (Gradient Magnitude) ===")
-    print(G[:5, :5])  # แสดง 5×5 พื้นที่บนซ้าย
-
-    print("\n=== ตัวอย่างค่าภายใน θ (Gradient Direction, หน่วย radian) ===")
-    print(theta[:5, :5])  # แสดง 5×5 พื้นที่บนซ้าย
-
     print("Canny Edge Detection Completed! Results saved in '../result/'")
